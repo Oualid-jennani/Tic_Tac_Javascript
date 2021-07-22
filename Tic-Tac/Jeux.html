@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="welcom to my web site">
+		<title>Jeux</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	</head>
+	<body>
+        
+        <div class="Main">
+            <div class="User" id="User" >
+                <div class="PREMIERE">
+                    <div class="premier"><input type="radio" id="Pemiere" name="Pemiere" value="1" checked>Star 1<sup>ér</sup><input type="radio" name="Pemiere" id="Pemiere" value="2"></div>
+                </div>
+
+                <div class="User1" id="User1" >
+                    <input type="text" class="nom1" id="nom1"placeholder="Enter name Gemer 1" >
+                    <label>V</label>
+                    <label id="LB1" class="LB1">----------</label>
+                    <select id="SL1" class="SL1">
+                        <option>X</option>
+                        <option>O</option>
+                    </select>
+                </div>
+
+                <div class="User2" id="User2" >
+                    <label>S</label>
+                    <input type="text" class="nom2" id="nom2"placeholder="Enter name Gemer 2" >
+                    <select id="SL2" class="SL2">
+                        <option>O</option>
+                        <option>X</option>
+                    </select>
+                    <label id="LB2" class="LB2">----------</label>
+                </div>
+            </div>
+            <input class="Star" id="Star" type="button" value="Star" onclick="">
+            <div id="Load" class="Load">
+                    <div class="new" id="new" onclick="Clear()"></div>
+                    <div class="Exit" id="Exit" onclick=""></div>
+                    <div class="nameTour" id="nameTour" onclick="">----------</div>
+            </div>
+            <div id="Jeux" class="Jeux">
+                <div id="D1" class="D1" onclick="StarJeux('D1')"></div>
+                <div id="D2" class="D2" onclick="StarJeux('D2')"></div>
+                <div id="D3" class="D3" onclick="StarJeux('D3')"></div>
+                <div id="D4" class="D4" onclick="StarJeux('D4')"></div>
+                <div id="D5" class="D5" onclick="StarJeux('D5')"></div>
+                <div id="D6" class="D6" onclick="StarJeux('D6')"></div>
+                <div id="D7" class="D7" onclick="StarJeux('D7')"></div>
+                <div id="D8" class="D8" onclick="StarJeux('D8')"></div>
+                <div id="D9" class="D9" onclick="StarJeux('D9')"></div>
+            </div>
+        </div>
+        <script src="js/JeuxScript.js"></script>
+	</body>
+</html>
